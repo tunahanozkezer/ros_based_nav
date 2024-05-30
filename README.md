@@ -1,4 +1,4 @@
-# Go Chase It
+# ROS Based Nav Application
 
 
 ## Project Description
@@ -31,9 +31,23 @@ Directory Structure
     └──
 ```
 
-
+## First Terminal
+```sh
 source devel/setup.sh
+roscore
+```
 
+## Second Terminal
+```sh
+source devel/setup.sh
 roslaunch src/ball_chaser_robot/my_robot/launch/world.launch
+```
 
+## Third Terminal
+```sh
+source devel/setup.sh
 roslaunch src/ball_chaser_robot/ball_chaser/launch/ball_chaser.launch
+```
+
+
+<div style="text-align: center;"> <img src="https://user-images.githubusercontent.com/47686437/168548113-b3cd4206-3281-445b-b7c6-bc0a3251293d.png" alt="Yıldız Technical University Logo" style="width: 5%; height: auto;"> </div> https://youtu.be/cuEREXvIRL0
